@@ -1,0 +1,39 @@
+<div class="cardContainer">
+   
+            <div class="headCard">
+                <div class="city-card">
+                    <h2>{{city}}</h2></div>
+                    <div class=" head-card-info">
+                        <img src="{{iconURL}}" alt="weather image">
+                        <p class="card-text-summary">{{summary}}</p>
+                    </div>       
+                </div>
+            <div class="info">
+                <p class="today">{{today | date:'EEEE d MMMM'}}</p>
+                <p>Temperature: {{temperature}}°c</p>
+                <p>Feels Like: {{feelsLikeTemp}} °c</p>
+              
+                <p>Humidity: {{humidity}}%</p>
+            </div>
+            <div class="weatherForcast">
+                <div class="tomorrow">
+                    <p>{{tomorrowDay | date:'EEEE'}}</p>
+                    <img src="{{tomorrowIconURL}}" alt="weather image">
+                </div>
+                <div class="secondDay">
+                    <p>{{secondDay | date:'EEEE'}}</p>
+                    <img src="{{secondIconURL}}" alt="weather image">
+                </div>
+                <div class="thirdDay">
+                    <p>{{thirdDay | date:'EEEE'}}</p>
+                    <img src="{{thirdIconURL}}" alt="weather image">
+                </div>
+                <div class="fourthDay">
+                    <p>{{fourthDay | date:'EEEE'}}</p>
+                    <img src="{{fourthIconURL}}" alt="weather image">
+                </div>
+            </div>
+            
+
+</div>
+     

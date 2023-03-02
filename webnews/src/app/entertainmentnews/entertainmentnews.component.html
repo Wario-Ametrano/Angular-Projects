@@ -1,0 +1,6 @@
+<div class="card-container">
+    <div class="card" *ngFor="let e of entertainmentDisplay.slice(0,1); let i= index">
+    <a href="{{e.url}}" target="_blank"><img class="card-image" src="{{e.urlToImage}}"></a>
+    <div class="title-container"><h5 class="title">{{e.title}}</h5></div>
+    </div>
+</div>

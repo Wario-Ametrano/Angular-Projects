@@ -1,0 +1,8 @@
+<div class="card-container">
+    <div class="card" *ngFor="let g of generalNewsDisplay.slice(0,8); let i = index">      
+          <a class="btn more" href="{{g.url}}" target="_blank"><img class="card-image" src="{{g.urlToImage}}" > </a>
+          <div class="title-container">
+            <h5 class="title">{{g.title}}</h5>
+          </div>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+#navbar
+{
+    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+}
+nav
+{
+    padding: 0;
+    display: flex;
+    height: 70px;
+}
+.navbar-nav
+{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-link
+{   
+    font-weight: bold;
+    color: white;
+    position: relative;
+    font-size: 17px;
+    
+   
+}
+.nav-link:hover
+{
+    color:black;
+}
+
+.navbar-brand
+{   
+    font-size: 35px;
+    background-color: black;
+    height: 70px;
+    width: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    margin-left: 50px;
+}
+.navbar-nav app-date
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    margin-left:660px ;
+}
+#social
+{
+    margin-left: 630px;
+    width: 100px;
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+}

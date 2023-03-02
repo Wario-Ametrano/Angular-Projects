@@ -1,0 +1,146 @@
+.contain
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding:40px;
+    width: 100%;
+    height: 100%;
+
+}
+.head-contain
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 100%;
+    
+}
+.title
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.head-title
+{   
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    margin-top: 40px;
+    width: 360px;
+    height: 50px;
+    background-color: black;
+}
+.head-title h2{
+    font-weight: bold;
+    font-size:35px;
+    position: relative;
+    color: white;
+    margin-left:20px;
+}
+#carouselExampleDark
+{   
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 350px;
+    width: 633px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+    position: relative;
+}
+.carousel-image
+{
+    height: 350px;
+    width: 633px;
+    object-fit: cover;
+    position: relative;
+}
+
+
+#corousel-title-button
+{   
+    
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.carousel-control-prev
+{
+
+    position: absolute;
+    margin-top: 150px;/*put your desired top margin*/
+}
+.carousel-control-next
+{
+  
+    position: absolute;
+    margin-top: 150px;/*put your desired top margin*/
+}
+.top-Cardcontainer
+{
+    
+    height: 450px;
+    width: 100%;
+    margin-left: 20px;
+}
+.card 
+{   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 305px;
+    height: 350px;
+    border:none;
+    border-radius: 0;
+    
+}
+.card:hover
+{
+    transform: scale(1.08);
+    transition: transform 0.5s;     
+}
+.more
+{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+.card-image
+{
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    overflow: hidden;
+}
+.title-container
+{
+    width: 100%;
+    height: 50px;
+    margin-top: 250px;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+}
+.card .title
+{
+    position: relative;
+    font-size: 18px; 
+    text-align: center;
+    font-weight: bold;
+    color:  white;
+
+}

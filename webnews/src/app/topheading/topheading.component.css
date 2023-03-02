@@ -1,0 +1,180 @@
+.contain
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding:40px;
+    width: 100%;
+    height: 100%;
+}
+.head-contain
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+.title
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.head-title
+{   
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    margin-top: 40px;
+    width: 360px;
+    height: 50px;
+    background-color: black;
+}
+.head-title h2{
+    font-weight: bold;
+    font-size:35px;
+    position: relative;
+    color: white;
+    margin-left:20px;
+}
+app-date
+{   
+    color: white;
+    position: relative;
+    margin-left: 20px;
+    font-size: 20px;
+}
+#carouselExampleDark
+{   
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 450px;
+    width: 633px;
+    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+    position: relative;
+}
+.carousel-image
+{
+    height: 450px;
+    width: 633px;
+    object-fit: cover;
+    position: relative;
+}
+
+
+#corousel-title-button
+{   
+    
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-size:20px;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.carousel-control-prev
+{
+
+    position: absolute;
+    margin-top: 150px;/*put your desired top margin*/
+}
+.carousel-control-next
+{
+  
+    position: absolute;
+    margin-top: 150px;/*put your desired top margin*/
+}
+.top-Cardcontainer
+{
+    
+    height: 450px;
+    width: 100%;
+    margin-left: 20px;
+}
+app-meteonews
+{
+    position: relative;
+
+}
+.card-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+}
+
+.card 
+{   
+    display: flex;
+    width: 200px;
+    height: 230px;
+    border-radius: none;
+    border-color: transparent;
+}
+.card:hover
+{
+    transform: scale(1.12);
+    transition: transform 0.5s;     
+}
+.card-image
+{
+    object-fit: cover;
+    width: 100%;
+    height: 230px;
+    background-color: black;    
+    border-color: transparent;
+
+}
+.title-container
+{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+    padding: 3px;
+    overflow: hidden;
+}
+.card .title
+{
+    position: absolute;
+    font-size: 18px; 
+    text-align: center;
+    font-weight: bold;
+    color:  white;
+}
+.top-news
+    {   
+        display: flex;
+        align-items:center;
+        justify-content: flex-start;
+        margin-top: 40px;
+        width: 300px;
+        height: 50px;
+        background-color: black;
+    }
+    .top-news h2{
+        font-weight: bold;
+        font-size:35px;
+        position: relative;
+        color: white;
+        margin-left:20px;  
+    }
+    .health-enter
+    {   
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 400px;
+        width: 100%;
+    }
