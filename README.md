@@ -10,10 +10,10 @@ Each project is a standalone Angular application that demonstrates core concepts
 
 Inside this repository you’ll find multiple Angular projects, for example:
 
-- affiliateweb – (descrizione breve del progetto)
-- foodsite – (descrizione breve del progetto)
-- showtime – (descrizione breve del progetto)
-- webnews – (descrizione breve del progetto)
+- affiliateweb 
+- foodsite 
+- showtime 
+- webnews 
 
 Consiglio: aggiungi per ciascun progetto una breve descrizione qui sotto indicando cosa fa e cosa dimostra (es. uso di routing, servizi, moduli, design responsive, ecc.).
 
